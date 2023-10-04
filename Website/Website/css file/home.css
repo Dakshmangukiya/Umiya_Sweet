@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.navbar-nav {
+    list-style-type: none;
+
+}
+
+.nav-item {
+    float: left;
+    margin-top: -12px;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav-item a:hover {
+    background-color: red;
+    color: white;
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+
+/*start home section coding*/
+.popular-sweets,
+.popular-savories,
+.popular-dry-food,
+.popular-food {
+    padding-top: 116px;
+}
+
+.popular-sweets-header,
+.popular-savories-header,
+.popular-dry-food-header,
+.popular-biscuits-header,
+.popular-food-header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.img-box-container {
+    display: flex;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-box {
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ddd;
+    width: 20%;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.img-h,
+.img-price {
+    text-align: center;
+    color: deeppink;
+    font-family: sans-serif;
+    line-height: 5px;
+}
+
+.img-btn {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size:15px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow: none;
+    background-color: #F45AAD;
+    outline: none;
+}
+
+.img-btn:hover {
+    background-color: deeppink;
+    cursor: pointer;
+}
+/*end home section coding*/
+
+/*start footer coding*/
+
+.footer {
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+
+.first-footer,
+.second-footer,
+.third-footer,
+.fourth-footer {
+    width: 24%;
+    height: 220px;
+    float: left;
+    line-height: 25px;
+    color: gray;
+}
+
+.icon-box i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.second-footer i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.third-footer i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.powerby {
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*end footer coding */
+/* end home section coding */
+
